@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Pizza Shop</title>
+  <link rel="icon" type="x-icon" href="favicon_io(3)/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<header>
+<nav class="topnav" id="myTopnav">
+  <a href="index.html"><img src="za.png" alt="Logo" class="logo"></a>
+  <ul>
+    <li><h1 class="name">PIZZA PLACE&copy;</h1></li>
+    <li><a href="index.html" class="links">Home</a></li>
+    <li><a href="Contact.html" class="links">Contact</a></li>
+    <li><a href="about.html" class="links">About</a></li>
+      <li><a href="#" class="links">Menus</a>
+      <ul> <!-- This is the unordered list for the dropdown menu under "Top Level 1" -->
+        <li><a href="comingsoon.html">Order online Menu</a></li>
+        <li><a href="menu.pdf" target="_blank">Call-in Menu </a></li>
+        <li><a href="cateringmenu.html">Catering Menu </a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a></li>
+  </ul>
+</nav>
+</header>
+
+<body>
+  <img src="breadsticks.jpg" alt="Breadsticks" class="breadsticks">
+  <div class="row2">
+  <h2>  Why we are the best pizza in town </h2>
+  <p>We make our Pizza with local ingredents that are grown with our sister company Good Growings&copy;. Our shop has any kind of pizza you can think of, while our menu only shows a few choices, you can come in with any type of Pizza and we will make it, 100% guarenteed no matter what.</p>
+  <h2>Hours:</h2>
+  <ul class="times">
+    <li> Monday:12am-12am </li>
+    <li> Tuesday:12am-12am </li>
+    <li> Wednesday:12am-12am </li>
+    <li> Thursday:12am-12am </li>
+    <li> Friday:12am-12am </li>
+    <li> Saturday:12am-12am </li>
+    <li> Sunday:Closed </li>
+  </ul>
+  
+  </div>
+  <img src="pizza.png" alt="Pizza" class="pizza">
+
+</body>  
+
+
+<footer>
+  <div class="clear"></div>
+  <div class="address">
+  <h2> Address:</h2>
+  <p> Christmas Cove, St. Thomas, St Thomas 00802, U.S. Virgin Islands</p>
+  </div>
+  <div class="phone">
+  <h2> Phone Number:</h2>
+  <p> 555-555-5555</p>
+  </div>
+  <div class="copyright">
+  <h2> Copyright:</h2>
+  <p> Pizza Place 2026&copy;</p>
+  </div>
+
+
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</html>
